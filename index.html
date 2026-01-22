@@ -170,33 +170,7 @@ fetch("games.json")
     console.error(err);
   });
 
-function filterGames() {
-  const age = document.getElementById("age").value;
-  const time = document.getElementById("time").value;
-  const style = document.getElementById("style").value;
-  const theme = document.getElementById("theme").value;
-  const mainTheme = document.getElementById("mainTheme")?.value;
 
-  const results = games.filter(g =>
-    (!age || g.age === age) &&
-    (!time || g.time <= time) &&
-    (!style || g.style === style) &&
-    (!mainTheme || g.mainTheme === mainTheme) &&
-    (!theme || g.tags.includes(theme))
-  );
-
-  const ul = document.getElementById("results");
-  ul.innerHTML = "";
-
-  if (results.length === 0) {
-    ul.innerHTML = "<li>Žádná hra neodpovídá výběru.</li>";
-  } else {
-    results.forEach(g => {
-      const li = document.createElement("li");
-      li.innerHTML = `<strong>${g.name}</strong> (${g.time} min)
-        <br><a href="${g.sourceUrl}" target="_blank">detail hry</a>`;
-      ul.appendChild(li);
-    });
   }
 }
 
