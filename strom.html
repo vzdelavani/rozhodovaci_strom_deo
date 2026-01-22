@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Výběr deskových her – knihovna</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            max-width: 600px;
+
+            margin: 40px auto;
+
+        }
+
+        h1 {
+
+            font-size: 1.4em;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-top: 15px;
+
+            font-weight: bold;
+
+        }
+
+        select, button {
+
+            width: 100%;
+
+            padding: 6px;
+
+            margin-top: 5px;
+
+        }
+
+        ul {
+
+            margin-top: 20px;
+
+        }
+
+        li {
+
+            margin-bottom: 6px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+<h1>Výběr deskových her (testovací verze)</h1>
+
+
+
+<label>Věková skupina</label>
+
+<select id="age">
+
+    <option value="">Nezáleží</option>
+
+    <option value="2-4">2–4 roky</option>
+
+    <option value="5-7">5–7 let</option>
+
+    <option value="7-9">7–9 let</option>
+
+    <option value="8-10">8–10 let</option>
+
+    <option value="10-12">10–12 let</option>
+
+    <option value="15+">15+</option>
+
+</select>
+
+
+
+<label>Maximální doba hraní</label>
+
+<select id="time">
+
+    <option value="">Nezáleží</option>
+
+    <option value="15">do 15 min</option>
+
+    <option value="30">do 30 min</option>
+
+    <option value="45">do 45 min</option>
+
+    <option value="60">do 60 min</option>
+
+</select>
+
+
+
+<label>Styl hry</label>
+
+<select id="style">
+
+    <option value="">Nezáleží</option>
+
+    <option value="kooperativní">Kooperativní</option>
+
+    <option value="kompetitivní">Kompetitivní</option>
+
+    <option value="party">Párty</option>
+
+</select>
+
+
+
+<label>Téma</label>
+
+<select id="theme">
+
+    <option value="">Nezáleží</option>
+
+    <option value="zvířata">Zvířata</option>
+
+    <option value="pohádky">Pohádky</option>
+
+    <option value="dobrodružství">Dobrodružství</option>
+
+    <option value="logika">Logika</option>
+
+    <option value="paměť">Paměť</option>
+
+    <option value="postřeh">Postřeh</option>
+
+</select>
+
+
+
+<button onclick="filterGames()">Najít hry</button>
+
+
+
+<ul id="results"></ul>
+
+
+
+<script>
+
+const games = [
+
+    { name: "Little Action", age: "2-4", time: 15, style: "kompetitivní", themes: ["zvířata"] },
+
+    { name: "Ice Cool", age: "5-7", time: 20, style: "kompetitivní", themes: ["zvířata", "postřeh"] },
+
+    { name: "Spící královny", age: "5-7", time: 20, style: "kompetitivní", themes: ["pohádky"] },
+
+    { name: "Jeníček a Mařenka", age: "5-7", time: 15, style: "kooperativní", themes: ["pohádky", "paměť"] },
+
+    { name: "Memoarrr!", age: "8-10", time: 30, style: "kompetitivní", themes: ["zvířata", "paměť"] },
+
+    { name: "Městečka na dlani", age: "15+", time: 60, style: "kompetitivní", themes: ["logika"] }
+
+];
+
+
+
+function filterGames() {
+
+    const age = document.getElementById("age").value;
+
+    const time = document.getElementById("time").value;
+
+    const style = document.getElementById("style").value;
+
+    const theme = document.getElementById("theme").value;
+
+
+
+    const results = games.filter(g =>
+
+        (!age || g.age === age) &&
+
+        (!time || g.time <= time) &&
+
+        (!style || g.style === style) &&
+
+        (!theme || g.themes.includes(theme))
+
+    );
+
+
+
+    const ul = document.getElementById("results");
+
+    ul.innerHTML = "";
+
+
+
+    if (results.length === 0) {
+
+        ul.innerHTML = "<li>Žádná hra neodpovídá výběru.</li>";
+
+    } else {
+
+        results.forEach(g => {
+
+            const li = document.createElement("li");
+
+            li.textContent = `${g.name} (${g.time} min)`;
+
+            ul.appendChild(li);
+
+        });
+
+    }
+
+}
+
+</script>
+
+
+
+</body>
+
+</html>
+
