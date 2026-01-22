@@ -1,174 +1,173 @@
 [
   {
-    "name": "Únikovka: Útěk na západ",
-    "age": "12-14",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "historie"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-utek-na-zapad-12891/"
+    "id": 1,
+    "nazev": "Únikovka: Útěk na západ",
+    "pocet_hracu": ["pro jednoho", "pro dva","malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní","příběhová"],
+    "tema": "historie"
   },
   {
-    "name": "Únikovka: Operace Anthropoid",
-    "age": "12-14",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "historie", "2.světová válka"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-operace-anthropoid-14762/"
+    "id": 2,
+    "nazev": "Únikovka: Operace Anthropoid",
+    "pocet_hracu": ["pro jednoho", "pro dva","malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "historie"
   },
   {
-    "name": "Únikovka: Kafka",
-    "age": "15+",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "příběhová",
-    "tags": ["útěková", "literatura"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-kafka-16921/"
+    "id": 3,
+    "nazev": "Únikovka: Kafka",
+    "pocet_hracu": ["pro jednoho", "pro dva","malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "historie"
   },
   {
-    "name": "Únikovka: Rychlé šípy – Tleskač",
-    "age": "10-12",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "dobrodružná",
-    "tags": ["útěková", "komiks", "záhada"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-rychle-sipy-tleskac-16118/"
+    "id": 4,
+    "nazev": "Únikovka: Rychlé šípy – Tleskač",
+    "pocet_hracu": ["pro jednoho", "pro dva", "malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "popkultura"
   },
   {
-    "name": "Detektivní únikovka: Sluneční ostrov I – Bez známek života",
-    "age": "12-14",
-    "time": 90,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "série"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/detektivni-unikovka-slunecni-ostrov-dil-1-bez-znamek-zivota-15742/"
+    "id": 5,
+    "nazev": "Detektivní únikovka: Sluneční ostrov – Bez známek života",
+    "pocet_hracu": ["pro jednoho", "pro dva", "malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "dobrodružství"
   },
   {
-    "name": "Detektivní únikovka: Sluneční ostrov II – Pod povrchem",
-    "age": "12-14",
-    "time": 90,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "série"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/detektivni-unikovka-slunecni-ostrov-dil-2-pod-povrchem-15741/"
+    "id": 6,
+    "nazev": "Detektivní únikovka: Sluneční ostrov – Pod povrchem",
+    "pocet_hracu": ["pro jednoho", "pro dva","malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "dobrodružství"
   },
   {
-    "name": "Detektivní únikovka: Sluneční ostrov III – Poslední pouť",
-    "age": "12-14",
-    "time": 90,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "série"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/detektivni-unikovka-slunecni-ostrov-dil-3-posledni-pout-15740/"
+    "id": 7,
+    "nazev": "Detektivní únikovka: Sluneční ostrov – Poslední pouť",
+    "pocet_hracu": ["pro jednoho", "pro dva","malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní", "příběhová"],
+    "tema": "dobrodružství"
   },
   {
-    "name": "Únikovka: Souboj posádek",
-    "age": "10-12",
-    "time": 45,
-    "style": "kompetitivní",
-    "mainTheme": "dobrodružná",
-    "tags": ["útěková", "vesmír"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-souboj-posadek-13292/"
+    "id": 8,
+    "nazev": "Únikovka: Souboj posádek",
+    "pocet_hracu": ["pro dva", "malá skupina (3-4)","větší skupina (5+)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["závodní", "deduktivní"],
+    "tema": "dobrodružství"
   },
   {
-    "name": "Únikovka: Blackout v Tokiu",
-    "age": "12-14",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["útěková", "město", "katastrofa"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/unikovka-blackout-v-tokiu-15506/"
+    "id": 9,
+    "nazev": "Únikovka: Blackout v Tokiu",
+    "pocet_hracu": ["pro jednoho", "pro dva", "malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["kooperativní", "deduktivní"],
+    "tema": "současnost"
   },
   {
-    "name": "Party Trefa!",
-    "age": "10-12",
-    "time": 15,
-    "style": "party",
-    "mainTheme": "party",
-    "tags": ["postřeh", "rychlá"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/party-trefa-13105/"
+    "id": 10,
+    "nazev": "Párty trefa",
+    "pocet_hracu": ["malá skupina (3-4)", "větší skupina (5+)"],
+    "herni_doba": "do 30 minut",
+    "mira_premysleni": "oddechová hra",
+    "typ_hry": ["párty", "postřehová"],
+    "tema": "popkultura"
   },
   {
-    "name": "Výprava",
-    "age": "8-10",
-    "time": 20,
-    "style": "kooperativní",
-    "mainTheme": "dobrodružná",
-    "tags": ["cestování", "příběh"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/vyprava-12907/"
+    "id": 11,
+    "nazev": "Výprava",
+    "pocet_hracu": ["malá skupina (3-4)", "větší skupina (5+)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["strategická", "deduktivní"],
+    "tema": "fantasy"
   },
   {
-    "name": "Čaroděj",
-    "age": "8-10",
-    "time": 30,
-    "style": "kompetitivní",
-    "mainTheme": "logická",
-    "tags": ["fantasy", "paměť"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/carodej-177/"
+    "id": 12,
+    "nazev": "Čaroděj",
+    "pocet_hracu": ["pro dva", "malá skupina (3-4)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["logická", "rodinná"],
+    "tema": "fantasy"
   },
   {
-    "name": "Rummikub",
-    "age": "8-10",
-    "time": 45,
-    "style": "kompetitivní",
-    "mainTheme": "logická",
-    "tags": ["čísla", "klasika"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/rummikub-1765/"
+    "id": 13,
+    "nazev": "Rummikub",
+    "pocet_hracu": ["pro dva", "malá skupina (3-4)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["logická", "rodinná"],
+    "tema": "abstraktní"
   },
   {
-    "name": "To jsi přehnal!",
-    "age": "12-14",
-    "time": 15,
-    "style": "party",
-    "mainTheme": "party",
-    "tags": ["humor", "rychlá"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/tos-prehnal-15928/"
+    "id": 14,
+    "nazev": "To jsi přehnal!",
+    "pocet_hracu": ["malá skupina (3-4)", "větší skupina (5+)"],
+    "herni_doba": "do 30 minut",
+    "mira_premysleni": "oddechová hra",
+    "typ_hry": ["párty", "vědomostní"],
+    "tema": "popkultura"
   },
   {
-    "name": "To jsi přehnal! Česko",
-    "age": "12-14",
-    "time": 15,
-    "style": "party",
-    "mainTheme": "party",
-    "tags": ["humor", "česko"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/tos-prehnal-cesko-15929/"
+    "id": 15,
+    "nazev": "To jsi přehnal! Česko",
+    "pocet_hracu": ["malá skupina (3-4)", "větší skupina (5+)"],
+    "herni_doba": "do 30 minut",
+    "mira_premysleni": "oddechová hra",
+    "typ_hry": ["párty", "vědomostní"],
+    "tema": "popkultura"
   },
   {
-    "name": "Detektivka: Krvavě rudé růže",
-    "age": "15+",
-    "time": 90,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["vyšetřování", "příběh"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/detektivka-krvave-rude-ruze-10334/"
+    "id": 16,
+    "nazev": "Detektivka: Krvavě rudé růže",
+    "pocet_hracu": ["pro jednoho","pro dva", "malá skupina (3-4)"],
+    "herni_doba": "60-120 minut",
+    "mira_premysleni": "přemýšlecí hra",
+    "typ_hry": ["deduktivní", "příběhová"],
+    "tema": "současnost"
   },
   {
-    "name": "Změňte osud: Strouha plná krve",
-    "age": "15+",
-    "time": 90,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["příběh", "rozhodování"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/zmente-osud-strouha-plna-krve-9385/"
+    "id": 17,
+    "nazev": "Změňte osud: Strouha plná krve",
+    "pocet_hracu": ["pro jednoho","pro dva", "malá skupina (3-4)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "oddechová",
+    "typ_hry": ["příběhová", "deduktivní"],
+    "tema": "současnost"
   },
   {
-    "name": "Detektivka do kapsy: Vražda na univerzitě",
-    "age": "12-14",
-    "time": 60,
-    "style": "kooperativní",
-    "mainTheme": "detektivní",
-    "tags": ["vyšetřování", "kapsová"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/detektivka-do-kapsy-vrazda-na-univerzite-10704/"
+    "id": 18,
+    "nazev": "Detektivka do kapsy: Vražda na univerzitě",
+    "pocet_hracu": ["pro dva", "malá skupina (3-4)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "oddechová hra",
+    "typ_hry": ["deduktivní"],
+    "tema": "současnost"
   },
   {
-    "name": "Máme rádi Česko",
-    "age": "10-12",
-    "time": 30,
-    "style": "party",
-    "mainTheme": "party",
-    "tags": ["vědomostní", "česko"],
-    "sourceUrl": "https://www.zatrolene-hry.cz/spolecenska-hra/mame-radi-cesko-10640/"
+    "id": 19,
+    "nazev": "Máme rádi Česko",
+    "pocet_hracu": ["malá skupina (3-4)", "větší skupina (5+)"],
+    "herni_doba": "30-60 minut",
+    "mira_premysleni": "oddechová hra",
+    "typ_hry": ["vědomostní", "párty"],
+    "tema": "popkultura"
   }
 ]
-
