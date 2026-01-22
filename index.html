@@ -124,7 +124,54 @@
 </form>
   
 <script>
-  alert("JS FUNGUJE");
-</script> 
+ console.log("JS SE SPUSTIL");
+  (async function() {
+  // načtení dat
+  const res = await fetch("./games.json");
+  const data = await res.json();
+  const games = data.games;
+
+  const resultsEl = document.getElementById("results");
+  const btn = document.getElementById("search-btn");
+
+  btn.addEventListener("click", () => {
+    resultsEl.innerHTML = ""; // vyčistit předchozí
+
+    const selHraci = document.getElementById("pocet-hracu").value;
+    const selDoba = document.getElementById("herni-doba").value;
+    const selPremysleni = document.getElementById("mira-premysleni").value;
+    const selTyp = document.getElementById("typ-hry").value;
+    const selTema = document.getElementById("tema").value;
+
+    const filtered = games.filter(game => {
+      if (selHraci && !game.pocet_hracu.includes(selHraci)) return false;
+      if (selDoba && game.herni_doba !== selDoba) return false;
+      if (selPremysleni && game.mira_premysleni !== selPremysleni) return false;
+      if (selTyp && !game.typ_hry.includes(selTyp)) return false;
+      if (selTema && game.tema !== selTema) return false;
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      resultsEl.innerHTML = "<p>Žádné hry nevyhovují filtru.</p>";
+      return;
+    }
+
+    filtered.forEach(game => {
+      const div = document.createElement("div");
+      div.classList.add("game-row");
+      div.innerHTML = `
+        <strong>${game.nazev}</strong><br>
+        hráči: ${game.pocet_hracu.join(", ")}<br>
+        doba: ${game.herni_doba}<br>
+        přemýšlení: ${game.mira_premysleni}<br>
+        typ: ${game.typ_hry.join(", ")}<br>
+        téma: ${game.tema}
+      `;
+      resultsEl.appendChild(div);
+    });
+  });
+})();
+</script>
 </body>
 </html>
