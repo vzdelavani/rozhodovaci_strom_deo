@@ -160,7 +160,7 @@
     "herni_doba": "30-60 minut",
     "mira_premysleni": "oddechová hra",
     "typ_hry": ["deduktivní"],
-    "tema": "současnost"
+    "tema": "detektivka"
   },
   {
     "id": 19,
@@ -331,7 +331,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["vědomostní", "rodinná"],
-  "tema": "historie"
+  "tema": null
 },
 {
   "id": 38,
@@ -376,7 +376,7 @@
   "herni_doba": "do 30 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["deduktivní", "kooperativní"],
-  "tema": "fantasy"
+  "tema": "tajemno"
 },
 {
   "id": 43,
@@ -394,7 +394,7 @@
   "herni_doba": "60-120 minut",
   "mira_premysleni": "náročná hra",
   "typ_hry": ["strategická", "ekonomická"],
-  "tema": "příroda"
+  "tema": "jídlo"
 },
 {
   "id": 45,
@@ -538,7 +538,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["deduktivní", "kooperativní", "párty"],
-  "tema": "fantasy"
+  "tema": "tajemno"
 },
 {
   "id": 61,
@@ -547,7 +547,7 @@
   "herni_doba": "60-120 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["příběhová", "párty"],
-  "tema": "fantasy"
+  "tema": "tajemno"
 },
 {
   "id": 62,
@@ -565,7 +565,7 @@
   "herni_doba": "do 30 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["párty", "rodinná"],
-  "tema": "dobrodružství"
+  "tema": "jídlo"
 },
 {
   "id": 64,
@@ -664,7 +664,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["párty", "rodinná"],
-  "tema": "popkultura"
+  "tema": null
 },
 {
   "id": 75,
@@ -673,7 +673,7 @@
   "herni_doba": "do 30 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["příběhová", "párty"],
-  "tema": "dobrodružství"
+  "tema": null
 },
 {
   "id": 76,
@@ -727,7 +727,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["párty"],
-  "tema": "dobrodružství"
+  "tema": null
 },
 {
   "id": 82,
@@ -745,7 +745,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "přemýšlecí hra",
   "typ_hry": ["kooperativní", "deduktivní"],
-  "tema": "fantasy"
+  "tema": "tajemno"
 },
 {
   "id": 84,
@@ -781,7 +781,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "přemýšlecí hra",
   "typ_hry": ["příběhová", "rodinná"],
-  "tema": "fantasy"
+  "tema": "dobrodružství"
 },
 {
   "id": 88,
@@ -857,7 +857,7 @@
 },
 {
   "id": 96,
-  "nazev": "Mission to Mars",
+  "nazev": "Mars 2049",
   "pocet_hracu": ["pro jednoho", "pro dva"],
   "herni_doba": "30-60 minut",
   "mira_premysleni": "přemýšlecí hra",
@@ -880,7 +880,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "přemýšlecí hra",
   "typ_hry": ["strategická"],
-  "tema": "historie"
+  "tema": "fantasy"
 },
 {
   "id": 99,
@@ -898,7 +898,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["rodinná"],
-  "tema": "dobrodružství"
+  "tema": "současnost"
 },
 {
   "id": 101,
@@ -925,7 +925,7 @@
   "herni_doba": "30-60 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["vědomostní"],
-  "tema": "historie"
+  "tema": null
 },
 {
   "id": 104,
@@ -943,7 +943,7 @@
   "herni_doba": "60-120 minut",
   "mira_premysleni": "přemýšlecí hra",
   "typ_hry": ["deduktivní", "příběhová"],
-  "tema": "dobrodružství"
+  "tema": "detektivní"
 },
 {
   "id": 106,
@@ -970,7 +970,7 @@
   "herni_doba": "do 30 minut",
   "mira_premysleni": "oddechová hra",
   "typ_hry": ["párty"],
-  "tema": "dobrodružství"
+  "tema": null
 },
 {
   "id": 109,
@@ -988,10 +988,11 @@
   "herni_doba": "60-120 minut",
   "mira_premysleni": "přemýšlecí hra",
   "typ_hry": ["kooperativní", "deduktivní"],
-  "tema": "historie"
+  "tema": "hádanky"
 }
   ]
 }
+
 
 
 
