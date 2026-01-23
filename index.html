@@ -86,6 +86,11 @@ button:hover {
   background: #234e87;
 }
 
+.game-row span.tema {
+  font-style: italic;
+  color: #555;
+}
+
   </style>
 </head>
 <body>
@@ -201,7 +206,7 @@ function renderGames(list) {
       Herní doba: ${game.herni_doba}<br>
       Míra přemýšlení: ${game.mira_premysleni}<br>
       Typ hry: ${game.typ_hry.join(", ")}<br>
-      Téma: ${game.tema}
+      Téma: ${game.tema ?? "—"}
       <hr>
     `;
     results.appendChild(div);
